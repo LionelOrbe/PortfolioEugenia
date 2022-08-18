@@ -1,6 +1,13 @@
 .container{
-    
+    color: var(--color2);
     position: absolute;
     bottom: 0;
     width: 100%;
+    /* box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2); */
+    font-size: 1vw;
+}
+@media (max-width: 800px) {
+    .container{
+        font-size: 2vw;
+    }
 }
