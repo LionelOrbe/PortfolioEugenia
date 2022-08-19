@@ -1,5 +1,69 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url("../../assets/Cinzel-Regular.ttf");
+  }
 .container{
-    height: 85vh;
+    animation: mymove 0.5s;
+    animation-fill-mode: forwards;
+    transform:scale(0);
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
     width: 100vw;
+    color: var(--color2);
+    margin-top: 5vh;
+}
+.container p {
+    font-family:"Cinzel";
+    font-size: 1.5vw;
+}
+.container ul {
+    font-size: 1.2vw;
+    width: 10vw;
+    margin-left: 5vw;
+}
+.photo{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 45% 55% 73% 27% / 29% 26% 74% 71%  ;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.info{
+    width: 50vw;
+    height: 37vw;
+    margin-top: 5vh;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+@keyframes mymove {
     
+    to {transform: scale(1)}
+}
+@media (max-width: 800px) {
+    .container{
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .photo{
+        width: 50vw;
+        height: 50vw;
+        
+    }
+    .info{
+        width: 95vw;
+        height: 66vw;
+        margin-top: -0vh;
+       
+    }
+    .container p {
+        
+        font-size: 3vw;
+    }
+    .container ul {
+        font-size: 3vw;
+        width: 30vw;
+        
+    }
 }
