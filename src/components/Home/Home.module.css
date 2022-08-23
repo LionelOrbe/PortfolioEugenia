@@ -13,7 +13,7 @@
     height: 75vh;
     width: 100vw;
     color: var(--color2);
-    margin-top: 5vh;
+        
 }
 .container p {
     font-family:"Cinzel";
@@ -44,17 +44,18 @@
 }
 @media (max-width: 800px) {
     .container{
+        height: 90vh;
         flex-direction: column;
-        margin-top: 5vh;
+        
     }
     .photo{
-        width: 50vw;
-        height: 50vw;
+        width: 10rem;
+        height: 10rem;
         
     }
     .info{
-        width: 95vw;
-        height: 66vw;
+        width: 20rem;
+        height: 15rem;
         margin-top: -0vh;
        
     }
@@ -66,5 +67,10 @@
         font-size: 3vw;
         width: 30vw;
         
+    }
+}
+@media (max-height: 650px) {
+    .photo{
+        display: none;
     }
 }
