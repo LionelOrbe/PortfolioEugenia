@@ -13,6 +13,7 @@
     height: 75vh;
     width: 100vw;
     color: var(--color2);
+    margin-top: 5vh;
         
 }
 .container p {
@@ -44,9 +45,9 @@
 }
 @media (max-width: 800px) {
     .container{
-        height: 90vh;
+        height: 100vh;
         flex-direction: column;
-        
+        margin-top: -5vh;
     }
     .photo{
         width: 10rem;
@@ -69,7 +70,7 @@
         
     }
 }
-@media (max-height: 650px) {
+@media (max-height: 600px) {
     .photo{
         display: none;
     }
