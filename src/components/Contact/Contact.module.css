@@ -34,8 +34,8 @@
 }
 .input{
     border: none;
-    color: var(--color2);
-    background-color: var(--color1);
+    color: #243b67;
+    background-color: #eaebed;
     width: 20vw;
     border-radius: 5px;
     height: 25px;
@@ -48,8 +48,8 @@
 .area{
     width: 60%;
     height: 40%;
-    background-color: var(--color1);
-    color: var(--color2);
+    background-color: #eaebed;
+    color: #243b67;
     border: none;
     border-radius: 5px;
     

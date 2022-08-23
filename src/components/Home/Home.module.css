@@ -29,6 +29,7 @@
     height: 20vw;
     border-radius: 45% 55% 73% 27% / 29% 26% 74% 71%  ;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--color2);
 }
 .info{
     width: 50vw;
