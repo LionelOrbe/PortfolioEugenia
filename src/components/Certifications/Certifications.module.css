@@ -63,3 +63,20 @@
     
     to {transform: scale(1)}
 }
+
+@media (max-width: 800px) {
+    .container{
+        flex-direction: row;
+    }
+    .hipaa{
+        width: 55vw;
+        height: 32vw;
+    }
+    .hipaa:active{
+        transform: scale(1.5);}
+    .pro{
+            width: 40vw;
+            height: 42vw;}
+            .aati{
+                width: 40vw;}
+}
