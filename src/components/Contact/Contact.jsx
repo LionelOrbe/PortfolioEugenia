@@ -53,9 +53,9 @@ export default function Contact() {
     function handleSubmit() {
       if (input.name && input.email && input.message) {
 
-            const serviceId = 'service_60xcvdv';
-            const templateId = 'template_luo3fc8';
-            const publicKey = 'vw9ugQxDToPyVh-TJ';
+            const serviceId = 'service_ibxufzp';
+            const templateId = 'template_i1a1y6u';
+            const publicKey = 'xT5c0iBko4a8qSq4V';
             const templateParams = {
                 name: input.name,
                 email: input.email,
