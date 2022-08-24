@@ -71,6 +71,10 @@
     }
 }
 @media (max-height: 600px) {
+    .info{
+        width: 18rem;
+        height: 13rem;
+    }
     .photo{
         display: none;
     }

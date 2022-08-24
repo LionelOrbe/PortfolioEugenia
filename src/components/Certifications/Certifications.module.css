@@ -13,6 +13,7 @@
     margin-top: 5vh;
     color: var(--color2);
     
+    
 }
 .hipaa{
     height: 15vw;
@@ -54,6 +55,7 @@
 
 .traductor p{
     color: var(--color2);
+    font-size: 1rem;
 }
 .traductor:hover{
     transform: scale(1.1);
@@ -66,6 +68,7 @@
 
 @media (max-width: 800px) {
     .container{
+        margin-top: 0;
         flex-direction: row;
     }
     .hipaa{
@@ -77,6 +80,10 @@
     .pro{
             width: 40vw;
             height: 42vw;}
-            .aati{
+    .aati{
                 width: 40vw;}
+    .container p {
+        font-size: 0.5rem;
+    }
+
 }

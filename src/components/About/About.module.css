@@ -60,9 +60,9 @@
 }
 @media (max-height: 600px) {
     .container ul{
-        font-size: 2vw;
+        font-size: 0.6rem;
     }
     .me{
-        font-size: 2vw;
+        font-size: 0.6rem;
     }
 }
