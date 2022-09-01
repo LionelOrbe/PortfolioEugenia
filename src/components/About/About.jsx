@@ -14,9 +14,9 @@ export default function About() {
           <li>Leadership</li>
           <li>Teamwork</li>
           <li>Responsibility</li>
-          <li>Result orientation</li>
-          <li>Decision making</li>
-          <li>Problem solving</li>
+          <li>Result-orientated</li>
+          <li>Decision-making</li>
+          <li>Problem-solving</li>
           <li>Organizational skills</li>
           <li>Attention to detail</li>
           <li>Reliability and work ethic</li>
