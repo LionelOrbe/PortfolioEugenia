@@ -4,7 +4,7 @@ import About from './components/About/About'
 import Certifications from './components/Certifications/Certifications'
 import Contact from './components/Contact/Contact'
 import NavBar from './components/NavBar/NavBar';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     <div className='App'>
         <Route path = '/' component={NavBar}/>
         <Route path = '/' component={Footer}/>
+        <Route exact path='/'><Redirect to="/home" /></Route>
         <Route exact path = '/home' component={Home} />
         <Route exact path = '/about' component={About} />
         <Route exact path = '/certifications' component={Certifications} />
