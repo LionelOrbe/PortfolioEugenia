@@ -8,7 +8,7 @@ export default function Home() {
     <div className={style.container}>
       <div >
         <p>Eugenia Bartolomé</p>
-        <img src={pho} className={style.photo}/>
+        <img src={pho} alt='Eugenia' className={style.photo}/>
         <p>English to Spanish Translator</p>
         <ul>
           <li>Medicine</li>
@@ -17,7 +17,7 @@ export default function Home() {
         </ul>
       </div>
       <div >
-      <img src={img} className={style.info}/>
+      <img src={img} alt='Skills' className={style.info}/>
       </div>
     </div>
   )

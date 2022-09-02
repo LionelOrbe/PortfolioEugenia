@@ -20,7 +20,7 @@ export default function NavBar() {
 
   return (
     <div className={style.container}>
-      <Link to='/' style={{ textDecoration: "none" }}>
+      <Link to='/home' style={{ textDecoration: "none" }}>
       <button onClick={()=> setBut(1)} className={but===1? style.select : style.button}><FcHome className={style.icon}/>Home</button>
       </Link>
       <Link to='/about' style={{ textDecoration: "none" }}>
