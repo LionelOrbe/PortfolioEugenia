@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '../Home/Home.module.css'
 import pho from '../../assets/Euge.jpeg'
-import img from '../../assets/info.jpg'
+import img from '../../assets/info.gif'
 
 export default function Home() {
   return (
